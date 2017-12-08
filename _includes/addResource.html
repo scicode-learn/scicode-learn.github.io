@@ -13,9 +13,14 @@
   <div class="panel-body info">
   
   {% if resource.thumbnail %}
-  <img src="{{resource.thumbnail}}" />
+  <p class="text-center">
+  <img src="{{resource.thumbnail}}"/>
+  </p>
+  {% elsif resource.thumbnail == "none" %}
   {% else %}
+  <p class="text-center">
   <img src="img/thumb_{{resource.language}}.png" />
+  </p>
   {% endif %}
 
   <a href="{{resource.url}}" target="_blank"><i class="fa fa-external-link"></i> {{ resource.url | replace: "https", "" | replace: "http", "" | replace: "://", "" | replace: "www.", "" | truncate: 25 }}</a>
