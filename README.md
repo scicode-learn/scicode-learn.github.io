@@ -5,3 +5,6 @@ https://github.com/scicode-learn/scicode-learn
 
 Serve website locally:
 bundle exec jekyll serve
+
+Update submodule (where the database yml is):
+git submodule update --init --recursive
