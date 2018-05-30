@@ -16,10 +16,14 @@
   <p class="text-center">
   <img src="{{resource.thumbnail}}"/>
   </p>
-  {% elsif resource.thumbnail == "none" %}
   {% else %}
   <p class="text-center">
-  <img src="img/thumb_{{resource.language}}.png" />
+{% if resource.language != "Matlab" and resource.language != "Python" and resource.language != "R"  %}
+  <img src="/img/thumb_none.png" />
+  {% else %}
+  <img src="/img/thumb_{{resource.language}}.png" />
+{% endif %}
+
   </p>
   {% endif %}
 
