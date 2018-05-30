@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resources for learning scientific programming"
-description: "Resources for learning scientific programmin"
+description: "Resources for learning scientific programming"
 header-img: "img/home-bg.jpg"
 ---
 
