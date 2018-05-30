@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "scicode-learn"
-description: "Resources for learning scientific programming"
+title: "Resources for learning scientific programming"
+description: "scicode-learn: Resources for learning scientific programming"
 ---
 
 Filter: 
