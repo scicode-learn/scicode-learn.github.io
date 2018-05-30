@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "scicode-learn"
+title: "Home"
 description: "Resources for learning scientific programming"
 ---
 

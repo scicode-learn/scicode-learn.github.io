@@ -1,8 +1,7 @@
 ---
 layout: page
-title: "Resources for learning scientific programming"
+title: "scicode-learn"
 description: "Resources for learning scientific programming"
-header-img: "img/home-bg.jpg"
 ---
 
 Filter: 
