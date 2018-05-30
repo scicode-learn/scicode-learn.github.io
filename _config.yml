@@ -17,7 +17,7 @@ project_repository: scicode-learn
 #altmetric: true
 
 # Build settings
-gems: [jekyll-paginate]
+gems: [jekyll-paginate,jemoji]
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
