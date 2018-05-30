@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Home"
 description: "Resources for learning scientific programming"
 ---
 
@@ -11,7 +10,9 @@ The goal of **scicode-learn** is to be an aggregation website for scientific pro
 
 <img src="img/logos/scicodelearn_logo.png" width="200">
 
-The project is still early on, see the initial roadmap ([issue #2](https://github.com/scicode-learn/scicode-learn/issues/2)) for the plan to get the project off the ground.
+If you're interested in contributing to the website, check us out on Github!
+
+[https://github.com/scicode-learn/scicode-learn](Github repository)
 
 scicode-learn a riff off of #scicode and scikit-learn. (See this [blog post](https://medium.com/@cMadan/scicode-learn-collecting-thoughts-ff22443f3dda) for some thoughts on the original inspiration for the project.)
 
