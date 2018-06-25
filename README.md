@@ -7,4 +7,4 @@ Serve website locally:
 bundle exec jekyll serve
 
 Update submodule (where the database yml is):
-git submodule update --init --recursive
+git submodule update --recursive --remote --merge
